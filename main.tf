@@ -13,3 +13,8 @@ terraform{
         key = "value"
     }
 }
+
+provider "azurerm" {
+ features{}
+subscription_id = ""
+}
