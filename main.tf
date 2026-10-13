@@ -19,7 +19,7 @@ provider "azurerm" {
 subscription_id = ""
 }
 
-resource "azurerm_resource_group" "test"{
+resource "azurerm_resource_group" "RG21"{
   name = ""
   location = ""
 }
