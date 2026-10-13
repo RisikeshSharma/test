@@ -26,7 +26,7 @@ resource "azurerm_resource_group" "RG21"{
 
 resource "storage_container" "stgc"{
   name = "rg-network"
-  location = "inida"
+  location = "west us"
   resource_group_name= "rg"
   container_name = "stg2"
 }
