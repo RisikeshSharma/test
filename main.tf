@@ -18,3 +18,8 @@ provider "azurerm" {
  features{}
 subscription_id = ""
 }
+
+resource "azurerm_resource_group" "RG21"{
+  name = ""
+  location = ""
+}
