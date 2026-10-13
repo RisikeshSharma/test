@@ -23,3 +23,9 @@ resource "azurerm_resource_group" "RG21"{
   name = ""
   location = ""
 }
+
+resource "storage_account_name" "stg"{
+  name = ""
+  location = ""
+  resource_group_name= ""
+}
