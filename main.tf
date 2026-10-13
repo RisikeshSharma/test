@@ -24,8 +24,9 @@ resource "azurerm_resource_group" "RG21"{
   location = ""
 }
 
-resource "storage_account_name" "stg"{
-  name = ""
-  location = ""
-  resource_group_name= ""
+resource "storage_container" "stgc"{
+  name = "121"
+  location = "inida"
+  resource_group_name= "rg"
+  container_name = "stg2"
 }
